@@ -1,0 +1,46 @@
+= 1.2.4 / 2011-02-01
+  * Bug fixes
+    * Fix version number in procline
+    * Unrequire rubygems. Some people consider this a bug.
+
+= 1.2.3 / 2010-02-23
+  * Bug fixes
+    * Never retry after connection is established and data is sent
+
+= 1.2.2 / 2010-02-19
+  * Bug fixes
+    * Bring back the buffer limit
+
+= 1.2.1 / 2010-02-11
+  * Bug fixes
+    * Don't count client closes as connection errors
+
+= 1.2.0 / 2010-02-09
+  * New Features
+    * Connection Errors and Timeouts
+    * Inactivity Timeouts
+  * Enhancements
+    * Better async retry logic
+
+= 1.1.0 / 2009-11-05
+  * New Features
+    * Add { :remote, :data, :reply } command [github.com/coderrr]
+  * Minor Changes
+    * Namespace connection classes under ProxyMachine instead of EM [github.com/cmelbye]
+    * Require socket [github.com/cmelbye]
+    * Up EM dep to 0.12.10
+    * Add SOCKS4 Proxy example [github.com/coderrr]
+
+= 1.0.0 / 2009-10-19
+  * No changes. Production ready!
+
+= 0.2.8 / 2009-10-14
+  * Minor changes
+    * Always log proxy connection
+    * Add version and total connection count to procline
+    * Add max connection count to procline
+    * Use Logger for logging
+
+= 0.2.7 / 2009-10-12
+  * Minor changes
+    * Use a 10k buffer to prevent memory growth due to slow clients
