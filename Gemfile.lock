@@ -1,0 +1,19 @@
+PATH
+  remote: proxymachine
+  specs:
+    proxymachine (1.2.4)
+      eventmachine (>= 0.12.10)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    eventmachine (1.2.7)
+
+PLATFORMS
+  x86_64-linux
+
+DEPENDENCIES
+  proxymachine!
+
+BUNDLED WITH
+   2.3.26
